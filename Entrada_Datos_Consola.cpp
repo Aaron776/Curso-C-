@@ -1,13 +1,14 @@
 # include<iostream> 
 using namespace std;
 int main(){ 
-// Para ingresar un dato por consola lo primero que hacemos es declara la variable donde vamos a guardar el dato
-	 int numero;
-	cout<<"Digite el numero: ";
-	
-	//Luego usamos la expresion cin>> y a lado ponemos el nombre de la variable en la cual queremos que se guarde ese dato
-	cin>>numero;
-	cout<<"El numero que digito es: "<<numero;
+									// Operadores Logicos: Permiten determinar un resultado booleano atraves de una sentencia
+// And (&&) que sinifica y
+bool resultado=5>3 && 5>1;
+cout<< resultado<<endl;
+
+// Or (||) que significa o
+bool resultado2=5<3 || 5>4;
+cout<< resultado2<<endl;
 	
 	return 0; 
 }
